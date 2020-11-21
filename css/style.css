@@ -28,6 +28,14 @@ h3 {
   font-size: 20px;
 }
 
+input {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -khtml-border-radius: 0px;
+  -o-border-radius: 0px;
+  -ms-border-radius: 0px;
+}
+
 .body1 {
   overflow: hidden;
 }
