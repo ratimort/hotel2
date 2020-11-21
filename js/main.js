@@ -42,10 +42,12 @@ $(document).ready(function(){
   });
   $(".click-on-11, .all-form").click(function(){
     $(".form-numbers").fadeOut();
+    $("body").css("overflow","auto");
     $('.fade-menu').addClass("toggle");
   });
   $(".fade-form").click(function(){
     $(".form-numbers").fadeIn();
+    $("body").css("overflow","hidden");
     $('.fade-menu').removeClass("toggle");
   });
 });
